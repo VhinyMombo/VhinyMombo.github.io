@@ -147,6 +147,7 @@ h2{
 .content{
   grid-area: content;
   padding: 50px;
+  
 }
 
 .experience-list{
