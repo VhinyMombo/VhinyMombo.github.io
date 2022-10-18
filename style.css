@@ -99,6 +99,26 @@ h2{
     "content";
 }
 
+.right-column-2{
+  grid-area: right-column;
+  display: grid;
+  grid-template-rows: 125px 1fr;
+  grid-template-areas: 
+    "header"
+    "content";
+  justify-content: center;
+}
+
+
+.right-column-3{
+  grid-area: right-column;
+  display: grid;
+  grid-template-rows: 50px 1fr;
+  grid-template-areas: 
+    "header"
+    "content";
+  justify-content: center;
+} 
 /* HEADER */
 .header{
   grid-area: header;
