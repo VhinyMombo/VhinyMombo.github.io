@@ -54,7 +54,7 @@ h2{
 
 .cv-container{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 0fr 1fr 1fr;
   grid-template-areas: "left-column right-column right-column";
   width: 1200px;
   margin: 20px auto;
@@ -135,6 +135,13 @@ h2{
   list-style-type: none;
   padding: 0;
 }
+
+.infos-2{
+  columns: 3;
+  list-style-type: none;
+  padding: 0;
+}
+
 
 /* CONTENT */
 .content{
